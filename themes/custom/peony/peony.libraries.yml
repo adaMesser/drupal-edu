@@ -1,0 +1,4 @@
+peony-css:
+  css:
+    theme:
+      sources/css/peony.css: {}

@@ -1,0 +1,24 @@
+name: Peony
+type: theme
+description: 'Peony theme is simple theme.'
+package: Drupal Education
+version: VERSION
+core: 8.x
+base theme: bartik
+
+regions:
+  header: 'Header'
+  highlighted: 'Highlighted'
+  content_top: 'Content Top'
+  content: 'Content'
+  content_bottom: 'Content Bottom'
+  sidebar: 'Sidebar'
+  footer_main: 'Footer Main'
+  footer_menu: 'Footer Menu'
+
+ckeditor_stylesheets:
+  - https://fonts.googleapis.com/css?family=Open+Sans
+  - css/base/elements.css
+
+libraries:
+  - peony/peony-css
